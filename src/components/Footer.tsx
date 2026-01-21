@@ -13,13 +13,50 @@ const Footer = () => {
           </p>
           
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
-            <a 
-              href="https://hackclub.com" 
-              target="_blank" 
+            <a
+              href="https://github.com/HackClub-Gymbruck"
+              target="_blank"
               rel="noopener noreferrer"
               className="hover:text-primary transition-colors"
+              aria-label="HackClub Gymbruck on GitHub"
             >
-              Part of Hack Club
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/company/hackclub-gymbruck/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors"
+              aria-label="HackClub Gymbruck on LinkedIn"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://x.com/HackClub_GB"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors"
+              aria-label="HackClub Gymbruck on X"
+            >
+              X
+            </a>
+            <a
+              href="https://www.youtube.com/@HackClub-GB"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors"
+              aria-label="HackClub Gymbruck on YouTube"
+            >
+              YouTube
+            </a>
+            <a
+              href="https://www.instagram.com/hackclub_gb/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors"
+              aria-label="HackClub Gymbruck on Instagram"
+            >
+              Instagram
             </a>
           </div>
         </div>
